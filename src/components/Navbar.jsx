@@ -19,7 +19,11 @@ const Navbar = () => {
 					}}
 				>
 					<img src={logo} alt="Logo" className="w-9 object-contain" />
+					<p className="text-white text-[18px] font-bold cursor-pointer">
+						Vazgen <span className="sm:block hidden">| Dev</span>
+					</p>
 				</Link>
+				<p className="text-red-500">Code</p>
 			</div>
 		</nav>
 	);
