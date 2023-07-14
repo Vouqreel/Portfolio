@@ -23,6 +23,10 @@ import {
 	jobit,
 	tripguide,
 	threejs,
+	webpack,
+	sass,
+	gulp,
+	bootstrap,
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +46,15 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "HTML/CSS Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "React Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Web Designer",
 		icon: backend,
 	},
 	{
@@ -69,6 +73,18 @@ const technologies = [
 		icon: css,
 	},
 	{
+		name: "Sass",
+		icon: sass,
+	},
+	{
+		name: "Tailwind CSS",
+		icon: tailwind,
+	},
+	{
+		name: "Bootstrap",
+		icon: bootstrap,
+	},
+	{
 		name: "JavaScript",
 		icon: javascript,
 	},
@@ -85,20 +101,16 @@ const technologies = [
 		icon: redux,
 	},
 	{
-		name: "Tailwind CSS",
-		icon: tailwind,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
 		name: "Three JS",
 		icon: threejs,
+	},
+	{
+		name: "Gulp",
+		icon: gulp,
+	},
+	{
+		name: "Webpack",
+		icon: webpack,
 	},
 	{
 		name: "git",
@@ -107,10 +119,6 @@ const technologies = [
 	{
 		name: "figma",
 		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
 	},
 ];
 
@@ -171,8 +179,7 @@ const experiences = [
 
 const testimonials = [
 	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+		testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
 		name: "Sara Lee",
 		designation: "CFO",
 		company: "Acme Co",

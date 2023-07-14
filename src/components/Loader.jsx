@@ -1,6 +1,9 @@
 import { Html, useProgress } from "@react-three/drei";
+
 const Loader = () => {
-	const progress = useProgress();
+	const { loaded, total } = useProgress();
+	const progress = (loaded / total) * 100;
+
 	return (
 		<Html>
 			<span className="canvas-load"></span>
