@@ -73,10 +73,6 @@ const technologies = [
 		icon: css,
 	},
 	{
-		name: "Sass",
-		icon: sass,
-	},
-	{
 		name: "Tailwind CSS",
 		icon: tailwind,
 	},
@@ -103,10 +99,6 @@ const technologies = [
 	{
 		name: "Three JS",
 		icon: threejs,
-	},
-	{
-		name: "Gulp",
-		icon: gulp,
 	},
 	{
 		name: "Webpack",
