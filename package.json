@@ -19,6 +19,7 @@
 		"react-parallax-tilt": "^1.7.152",
 		"react-router-dom": "^6.8.1",
 		"react-spring": "^9.7.2",
+		"react-three-fiber": "^6.0.13",
 		"react-vertical-timeline-component": "^3.6.0",
 		"three": "^0.154.0"
 	},
