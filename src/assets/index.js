@@ -25,6 +25,7 @@ import bd from "./company/bd.png";
 import outsource from "./company/outsource.png";
 import travello from "./travello.png";
 import snickshop from "./snickshop.png";
+import marvel from "./marvel-comics.png";
 
 export {
 	logo,
@@ -54,4 +55,5 @@ export {
 	snickshop,
 	travello,
 	outsource,
+	marvel,
 };

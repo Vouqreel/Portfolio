@@ -19,6 +19,7 @@ import {
 	outsource,
 	snickshop,
 	travello,
+	marvel,
 } from "../assets";
 
 export const navLinks = [
@@ -125,11 +126,13 @@ const experiences = [
 		company_name: "Outsource",
 		icon: outsource,
 		iconBg: "#E6DEDD",
-		date: "May 2021 - Current",
+		date: "November 2020 - Current",
 		points: [
-			"Developing and maintaining web applications using JavaScript and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Developing user interfaces using HTML, CSS, and JavaScript.",
+			"Building interactive features and functionality for web applications using JavaScript.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Working with libraries and frameworks, like jQuery or React, to enhance the user experience.",
+			"Handling form validation, data manipulation, and other client-side scripting tasks.",
 		],
 	},
 ];
@@ -160,67 +163,67 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Marvel Comics",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Marvel Comics project is a platform where you can search for information about characters from Marvel comics. The project utilizes the Marvel API, which provides access to a vast database of information about characters and their connections to comics, movies, and other media products.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "api",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "webpack",
 				color: "pink-text-gradient",
 			},
 		],
-		image: bd,
-		source_code_link: "https://github.com/",
+		image: marvel,
+		source_code_link: "https://github.com/Vouqreel/MarvelComics",
 	},
 	{
-		name: "Job IT",
+		name: "Snick Shop",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"SnickShop - a test landing page for an online sneaker store. On the website, you can search, filter, and purchase sneakers, leave reviews, subscribe to newsletters, and receive assistance from customer service. Find your perfect pair and express your style with our high-quality models.",
 		tags: [
 			{
-				name: "react",
+				name: "js",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "json",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "gulp",
 				color: "pink-text-gradient",
 			},
 		],
 		image: snickshop,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/Vouqreel/SnickShop",
 	},
 	{
-		name: "Trip Guide",
+		name: "Travello Tours",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A comprehensive travel booking platform that allows users to book flights, hotels, and offers curated recommendations for popular destinations. The platform integrates with multiple airlines and hotel providers to provide a wide range of options for users to choose from.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "js",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "aos",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "gulp",
 				color: "pink-text-gradient",
 			},
 		],
 		image: travello,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/Vouqreel/TravelloTours",
 	},
 ];
 
