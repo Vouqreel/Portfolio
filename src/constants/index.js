@@ -139,25 +139,20 @@ const experiences = [
 
 const testimonials = [
 	{
-		testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+		testimonial:
+			"Vazgen, we are very pleased with your work! You are great, you are doing a great job, you are proactive, we really appreciate it. Glad we found you 🙌",
+		name: "Viktoriya Z",
+		company: "Barcelona Design",
 	},
 	{
-		testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+		testimonial: "Very polite. Immediately understood what and how I needed. Everything was done on time 😊",
+		name: "Imany Kh",
+		company: "Client",
 	},
 	{
-		testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+		testimonial: "Very cool! Now I don’t know how to prove to the teachers that I did it 🤣",
+		name: "Ilya S",
+		company: "Client",
 	},
 ];
 
