@@ -19,6 +19,7 @@ import {
 	outsource,
 	snickshop,
 	travello,
+	shirtgenerator,
 	marvel,
 } from "../assets";
 
@@ -219,6 +220,27 @@ const projects = [
 		],
 		image: travello,
 		source_code_link: "https://github.com/Vouqreel/TravelloTours",
+	},
+	{
+		name: "T-Shirt Generator",
+		description:
+			"The project is an interactive tool that allows users to create custom t-shirts. Features include adding textures, patterns, and logos to create a personalized design.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "threejs",
+				color: "green-text-gradient",
+			},
+			{
+				name: "motion",
+				color: "pink-text-gradient",
+			},
+		],
+		image: shirtgenerator,
+		source_code_link: "https://github.com/Vouqreel/TShirtGenerator ",
 	},
 ];
 
